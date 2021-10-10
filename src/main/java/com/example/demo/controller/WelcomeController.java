@@ -9,7 +9,7 @@ public class WelcomeController {
 
     @RequestMapping("/")
     public String welcome(){
-        return "Hello from Maven web!!!";
+        return "Hello from OpenShift!!!";
 
     }
 }
